@@ -3,6 +3,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <Nav />
+
   <main class="form-signin w-100 m-auto">
     <form>
       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
@@ -20,6 +22,15 @@ import { RouterLink, RouterView } from 'vue-router'
     </form>
   </main>
 </template>
+
+<script lang="ts">
+import Nav from '@/components/Nav.vue';
+export default {
+  components: {
+    Nav,
+  },
+}
+</script>
 
 <style>
 html,
