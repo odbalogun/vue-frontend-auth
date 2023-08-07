@@ -8,8 +8,8 @@
         </ul>
 
         <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Register</button>
+          <router-link to="/login" class="btn btn-outline-light me-2">Login</router-link>
+          <router-link to="/register" type="button" class="btn btn-warning">Register</router-link>
         </div>
       </div>
     </div>
